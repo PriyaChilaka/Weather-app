@@ -1,7 +1,7 @@
 import  { useState } from 'react';
 const Forecast = () => {
     
-   let [responseObj, setResponseObj] = useState({});
+   let [responseObj] = useState({});
     function getForecast() {
 
     }
