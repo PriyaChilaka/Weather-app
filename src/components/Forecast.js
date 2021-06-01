@@ -1,18 +1,8 @@
-import  { useState } from 'react';
-const Forecast = () => {
-    
-   let [responseObj] = useState({});
-    function getForecast() {
-
-    }
+function Forecast({ forecast }) {
     return (
-        <div>
-           <h2>Find Current Weather Conditions</h2>
-           <div>
-               {JSON.stringify(responseObj)}
-           </div>
-           <button onClick={getForecast}>Get Forecast</button>
-       </div>
+        <article>
+            <h3>{ forecast}</h3>
+        </article>
     )
 }
 export default Forecast

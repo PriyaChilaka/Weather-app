@@ -1,13 +1,13 @@
 
 import './App.css';
-import Forecast from "./components/Forecast/Forecast";
+import Weather from './components/Weather'
 
 function App() {
   return (
     <div className="App">
       <h1>React Weather App</h1>
       <main>
-        <Forecast />
+        <Weather />
       </main>
       <footer>
         Page created by yournamehere
